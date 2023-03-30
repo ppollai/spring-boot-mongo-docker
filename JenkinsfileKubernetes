@@ -19,6 +19,7 @@ node{
         sh 'docker push ppollai/spring-boot-mongo'
      }
     stage("Deploy To Kuberates Cluster"){
+        sh 'kubectl delete pods -l app=springapp -n default'     
         sh 'kubectl apply -f springBootMongo.yml'
       }
 }
