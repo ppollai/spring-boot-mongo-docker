@@ -34,4 +34,4 @@ docker ps -a
 ```
 
 ## License
-[Pollai Technologies](http://ppollai.cf)
+[Pollai Technologies](https://pollai.in)
